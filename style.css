@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(131, 32, 32);
+}
+
+body>header>div{
+ 
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    list-style-type: none;
+}
+
+.menu>a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu>a>li{
+    background-color: red;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.menu>a>li:hover{
+    background-color: bisque;
+    color: red;
+}
+
+.sobre{
+    display: flex;
+    background-color: brown;
+    margin: 1%;
+    padding: 1%;
+    font-size: larger;
+    font-weight: bold;
+    color: blanchedalmond;
+    text-align: center;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    max-height: 300px;
+}
+
+.formulario{
+    display: flex;    
+    margin: 1%;
+    padding: 1%;
+    background-color: brown;
+
+}
+
+.formulario>div{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.formulario>div>form>input{
+    width: 200px;
+}
+
+footer>div{
+    margin: 1%;
+    padding: 1%;
+    color: bisque;
+    background-color: brown;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.texto{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    max-height: 300px;
+}
+
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 20px bisque inset !important;
+}
