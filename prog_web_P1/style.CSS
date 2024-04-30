@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(131, 32, 32);
+}
+
+body>header>div{
+ 
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    list-style-type: none;
+}
+
+.menu>li>a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu>li{
+    background-color: red;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.menu>li:hover{
+    background-color: grey;
+    color: red;
+}
+
+.sobre{
+    background-color: brown;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    font-size: larger;
+    color: blanchedalmond;
+}
+
+.formulario{
+    margin: 1%;
+    padding: 1%;
+    background-color: brown;
+    display: flex;
+
+
+    
+}
+
+.formulario>div{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    padding: 1%;
+}
+
+.formulario>div>form>input{
+    width: 200px;
+
+}
+
+footer{
+    margin: 1%;
+    padding: 1%;
+    color: bisque;
+    background-color: brown;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    border: 1px solid black;
+    text-align: center;
+}
